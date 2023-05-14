@@ -16,6 +16,24 @@
 <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
+.themed-container {
+    padding: .75rem;
+    margin-bottom: 0.2rem!important;
+    background-color: rgba(0, 123, 255, .15);
+    border: 1px solid rgba(0, 123, 255, .2);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #dbdbdb;
+    border-color: transparent;
+}
+
+
+/* fin de mi css */
+
+
+
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -38,6 +56,11 @@
   <body class="py-4">
     
 <main>
+
+    <div class="container-fluid themed-container text-center"><div><button type="button" class="btn btn-primary btn-lg btn-block"><a href="analogo1.html">link 1</a></button></div></div>
+    <div class="container-fluid themed-container text-center"><div><button type="button" class="btn btn-primary btn-lg btn-block"><a href="analogo2.html">link 2</a></button></div></div>
+    <div class="container-fluid themed-container text-center"><div><button type="button" class="btn btn-primary btn-lg btn-block"><a href="analogo3.html">link 3</a></button></div></div>
+
   <div class="container">
 
     <h1>Bootstrap grid examples</h1>
@@ -46,6 +69,13 @@
 
     <h2 class="mt-4">Five grid tiers</h2>
     <p>There are five tiers to the Bootstrap grid system, one for each range of devices we support. Each tier starts at a minimum viewport size and automatically applies to the larger devices unless overridden.</p>
+
+
+
+    
+
+
+
 
     <div class="row mb-3">
       <div class="col-4 themed-grid-col">.col-4</div>
@@ -215,6 +245,9 @@
   <div class="container-xl themed-container">.container-xl</div>
   <div class="container-xxl themed-container">.container-xxl</div>
   <div class="container-fluid themed-container">.container-fluid</div>
+
+ 
+
 </main>
 
 
