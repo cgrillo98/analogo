@@ -3,15 +3,57 @@
 <head>
 <style>
 
+.container {
+  width:100%;
+
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container > div {
+    background-color: #dedede;
+    width: 99%;
+    margin: 3px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.btn {
+    background-color: transparent;
+    font-size: 2rem;
+    border-color: transparent;
+    color: black;
+    font-family: Roboto, sans-serif;
+}
+
+a:visited {
+  color: pink;
+}
+
+.btn a:hover {
+    color:green;
+}
+
+
 </style>
 </head>
 <body>
 
-<button type="button" class="btn btn-primary btn-lg btn-block"><a href="analogo1.html">link text</a></button>
-<button type="button" class="btn btn-secondary btn-lg btn-block"><a href="#">link text</a></button>
-<button type="button" class="btn btn-secondary btn-lg btn-block"><a href="#">link text</a></button>
+
+    <div class="container">
 
 
+<div class="flex-container">
+    <div><button type="button" class="btn btn-primary btn-lg btn-block"><a href="analogo1.html">link 1</a></button></div>
+    <div><button type="button" class="btn btn-secondary btn-lg btn-block"><a href="#">link 2</a></button></div>
+    <div><button type="button" class="btn btn-secondary btn-lg btn-block"><a href="#">link 3</a></button></div>  
+  </div>
+</div>
 
 </body>
 </html>
